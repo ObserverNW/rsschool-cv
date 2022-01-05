@@ -9,6 +9,10 @@
 * ### Git
 * ### JS (JQuery)
 
+## Conctacts:
+* ### Discord: observernw
+* ### Telegram: observer556
+
 
 ## My views:
 * ### Goodness is stronger than evil
