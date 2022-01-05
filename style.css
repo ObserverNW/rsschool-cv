@@ -54,7 +54,7 @@ aside img {
   width: 50%;
   height: auto;
   border-radius: 50%;
-  border: 6px solid #ffaf0f;
+  border: 3px solid #ffaf0f;
 }
 
 .sec1 h2 {
@@ -62,6 +62,7 @@ aside img {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
 }
+
 .sec1 {
   text-align: center;
 }
@@ -104,19 +105,38 @@ article {
 .skills {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  margin: 0 0 0 30px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills ul li {
+  padding: 0 0 0 20px;
 }
 
 .code {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  margin: 0 0 30px 30px;
+  margin: 0 0 20px 0px;
 }
 
 .ab1{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  margin: 15px 0 0 30px;
+  margin: 10px 0;
+}
+
+.ab1 h3 {
+  background: #998585;
+}
+
+.skills h3 {
+  background: #998585;
+}
+
+.code h3 {
+  background: #998585;
 }
 
 footer {
@@ -126,7 +146,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 footer img {
