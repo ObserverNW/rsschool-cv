@@ -46,7 +46,8 @@ aside {
   background: #1b1f30;
   flex-direction: column;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 aside img {
@@ -54,65 +55,67 @@ aside img {
   height: auto;
   border-radius: 50%;
   border: 6px solid #ffaf0f;
-  align-items: center;
 }
 
-aside .sec1 h2 {
+.sec1 h2 {
+  color: #ffaf0f;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.sec1 {
+  text-align: center;
+}
+
+.sec2 h2 {
   color: #ffaf0f;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
 }
 
-aside .sec2 h2 {
+.sec3 h3 {
   color: #ffaf0f;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
 }
 
-aside .sec3 h3 {
-  color: #ffaf0f;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-}
-
-aside .sec1 ul li {
+.sec1 ul li {
   color: white;
   padding: 14px 10px;
 }
 
-aside .sec2 ul li {
+.sec2 ul li {
   color: white;
   padding: 14px 10px;
 }
 
-aside .sec3 ul li {
+.sec3 ul li {
   color: white;
   padding: 14px 10px;
 }
 
 article {
   width: 75%;
-  background: #fcfcf2;
+  background: #ede8e8;
   flex-direction: column;
   display: flex;
   justify-content: space-between;
 }
 
 .skills {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   margin: 0 0 0 30px;
 }
 
 .code {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   margin: 0 0 30px 30px;
 }
 
 .ab1{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   margin: 15px 0 0 30px;
 }
 
